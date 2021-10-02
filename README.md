@@ -8,7 +8,7 @@ most affected, and look for mentorship candidates to ease the loss in labor powe
 
 ## Results
 
-![retiring_titles](/Images/retiring_titles.png)
+![retiring_titles](/Images/retiring_titles.PNG)
 
 * The above table shows how many employees of each title are at the retirement age,
   over ninety-thousand in total.
@@ -19,7 +19,7 @@ most affected, and look for mentorship candidates to ease the loss in labor powe
 * Over 1,500 employees eligible for mentorship were identified. Below is a table that shows the
   results by title.
 
-![mentor_title_count](/Images/mentorship_title_count.png)
+![mentor_title_count](/Images/mentor_title_count.PNG)
 
 ## Summary
 
@@ -60,7 +60,7 @@ SELECT 	DISTINCT ON (emp_no) e.emp_no,
 		e.hire_date,
 		de.to_date,
 		t.title
---INTO table
+INTO table
 FROM employees as e
 INNER JOIN dept_emp as de
 ON (e.emp_no = de.emp_no)
